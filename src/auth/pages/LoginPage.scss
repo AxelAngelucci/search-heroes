@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+body{
+
+    font-family: $main-font;
+}
+.loginContainer{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    width: 50%;
+    height: 40vh;
+    margin: 30vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin: 0%;
+    }
+    hr{
+        width: 90%;
+    }
+    button{
+        color: white;
+        background-color: violet;
+        border: none;
+        width: 20%;
+        height: 10%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+}

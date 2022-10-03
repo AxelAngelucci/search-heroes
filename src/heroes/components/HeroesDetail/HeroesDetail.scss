@@ -1,0 +1,46 @@
+body{
+    overflow-x: hidden;
+}
+.heroDetail{
+    display: flex;
+    gap: 2rem;
+    width: 90vw;
+    margin: 2rem auto;
+    .heroDetailImage{
+        width: 30vw;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+    .heroDetailContent{
+        width: 100%;
+        h3{
+            margin: 0;
+        }
+    }
+    button{
+        width: 70px;
+        height: 30px;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1.5px solid #EE171F;
+        color: #EE171F;
+        font-weight: bold;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover{
+            background-color: #EE171F;
+            color: white;
+        }
+        
+    }
+}
+
+.animate__animated.animate__backInLeft, .animate__animated.animate__backInRight {
+
+    --animate-duration: .5s;
+  }
